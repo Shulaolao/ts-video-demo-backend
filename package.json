@@ -1,0 +1,32 @@
+{
+  "name": "videofragment",
+  "version": "1.0.0",
+  "description": "video fragmention backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jihulab.com/Shulao/video-fragmention-backend.git"
+  },
+  "keywords": [
+    "video",
+    "fragmentation"
+  ],
+  "author": "shulao",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "m3u8-parser": "^7.1.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
